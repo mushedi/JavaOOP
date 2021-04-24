@@ -1,0 +1,55 @@
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Five 
+
+
+Enter the number of units sold: 5
+
+Number of units purchased is:         5
+Discount applied is:                  0%
+Total saving due to discount is:      0.00
+The total cost of the purchase is:    545.00
+
+
+
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Five 
+
+
+Enter the number of units sold: 45
+
+Number of units purchased is:         45
+Discount applied is:                  20%
+Total saving due to discount is:      981.00
+The total cost of the purchase is:    3924.00
+
+
+
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Five 
+
+
+Enter the number of units sold: 65
+
+Number of units purchased is:         65
+Discount applied is:                  20%
+Total saving due to discount is:      1417.00
+The total cost of the purchase is:    5668.00
+
+
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Five 
+
+
+Enter the number of units sold: 200
+
+Number of units purchased is:         200
+Discount applied is:                  48%
+Total saving due to discount is:      10464.00
+The total cost of the purchase is:    11336.00

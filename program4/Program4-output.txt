@@ -1,0 +1,69 @@
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Four 
+
+
+Enter Employee ID: 1001
+Enter Employee Pay Rate: 10.50
+Enter Employee hours: 35
+
+
+ID Number:          1001
+Pay Rate:           10.50
+Regular Hours:      35
+Overtime Hours:     0
+Total Hours:        35
+Regular Pay:        367.50
+Overtime Pay:       0.00
+Gross Pay:          367.50
+Tax:                0.00
+Deductions:         30.00
+Net Pay:            337.50
+
+
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Four 
+
+
+Enter Employee ID: 2002
+Enter Employee Pay Rate: 32.50
+Enter Employee hours: 40
+
+
+ID Number:          2002
+Pay Rate:           32.50
+Regular Hours:      40
+Overtime Hours:     0
+Total Hours:        40
+Regular Pay:        1300.00
+Overtime Pay:       0.00
+Gross Pay:          1300.00
+Tax:                162.50
+Deductions:         192.50
+Net Pay:            1107.50
+
+
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Four 
+
+
+Enter Employee ID: 3003
+Enter Employee Pay Rate: 15.50
+Enter Employee hours: 50
+
+
+ID Number:          3003
+Pay Rate:           15.50
+Regular Hours:      40
+Overtime Hours:     10
+Total Hours:        50
+Regular Pay:        620.00
+Overtime Pay:       232.50
+Gross Pay:          852.50
+Tax:                106.56
+Deductions:         136.56
+Net Pay:            715.94
