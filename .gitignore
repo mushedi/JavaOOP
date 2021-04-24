@@ -1,0 +1,9 @@
+/.metadata/
+#ignore everything
+*
+
+#unignore things we want to track
+!*/
+!*.java
+!*.txt
+!*.gitignore
