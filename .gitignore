@@ -7,3 +7,4 @@
 !*.java
 !*.txt
 !*.gitignore
+/.metadata/
