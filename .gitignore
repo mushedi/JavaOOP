@@ -4,6 +4,8 @@
 
 #unignore things we want to track
 !*/
+!*/bin
+!*/src
 !*.java
 !*.txt
 !*.gitignore
