@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 //***************************************************************
 //
 //  Developer:         Azul Lanas
@@ -21,6 +19,7 @@ import java.text.DecimalFormat;
 //		
 //
 //***************************************************************
+import java.text.DecimalFormat;
 
 public class SavingsAccount {
 	private static double annualInterestRate;
@@ -59,7 +58,7 @@ public class SavingsAccount {
 	   //**************************************************************
 	
 	public void calculateMonthlyInterest() {
-		monthlyInterest = annualInterestRate / 100 * savingsBalance;
+		monthlyInterest = annualInterestRate / 100 / 12 * savingsBalance;
 		depositAmount(monthlyInterest);
 		
 	}
@@ -133,9 +132,10 @@ public class SavingsAccount {
 	   //
 	   //**************************************************************
 	
-	public static void modifyInterestRate(double rate) {
-		if (rate >= 2 && rate <= 5) {
+	public static double modifyInterestRate(double rate) {
+		if (rate >= 2.0 && rate <= 5.0) {
 			annualInterestRate = rate;
+			return annualInterestRate;
 		}else {
 			throw new IllegalArgumentException("2-5 only");
 		}
