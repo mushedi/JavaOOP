@@ -1,0 +1,93 @@
+
+Name:    Azul Lanas
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Ten 
+
+
+       ID               Income         Members           State
+
+      1000           $31,000.00          3                Texas
+      1042           $12,180.06          3                Texas
+      1062           $13,240.45          2                Texas
+      1200           $36,000.00          2             Maryland
+      1327           $19,800.56          2               Alaska
+      1483           $22,458.23          7                Texas
+      1900           $17,000.09          3           Washington
+      2000           $16,910.00          2              Vermont
+      2112           $23,125.00          4               Alaska
+      2500           $20,001.00          5               Hawaii
+      3000           $21,330.00          3                Texas
+      3210           $13,200.00          1            Minnesota
+      3600           $77,500.00          4           California
+      3601           $11,970.00          2             Illinois
+      4000           $25,750.00          4              Florida
+      4724            $8,900.00          3             Oklahoma
+      6217           $45,000.70          2                Texas
+      9280            $6,200.00          1              Vermont
+      5000           $30,170.00          2               Hawaii
+      5100           $30,170.05          5             Arkansas
+      5601           $51,970.00          9             Illinois
+      5724           $66,900.00          3              Florida
+      5217           $10,002.68          2                Texas
+      5280           $70,000.00          1           Washington
+      5000          $100,000.00         10               Hawaii
+      5200           $25,000.40          3                Texas
+      5230          $120,000.00          6           California
+      6641           $85,000.00          7               Alaska
+      7000           $45,500.00          4             Maryland
+      7100           $56,500.00          3             Illinois
+      7205           $50,100.65          8             Arkansas
+      8110          $110,005.90          8                Texas
+      8340           $70,100.25          9                 Iowa
+      9101           $67,590.40          6                Texas
+      9220           $35,000.58          8             Arkansas
+      9300           $22,000.69          4                 Iowa
+      9400           $19,490.00          1               Hawaii
+      9400           $55,490.00          4         Pennsylvania
+
+
+The average household income is: $40,593.62
+
+       ID               Income         Members           State
+
+      3600           $77,500.00          4           California
+      6217           $45,000.70          2                Texas
+      5601           $51,970.00          9             Illinois
+      5724           $66,900.00          3              Florida
+      5280           $70,000.00          1           Washington
+      5000          $100,000.00         10               Hawaii
+      5230          $120,000.00          6           California
+      6641           $85,000.00          7               Alaska
+      7000           $45,500.00          4             Maryland
+      7100           $56,500.00          3             Illinois
+      7205           $50,100.65          8             Arkansas
+      8110          $110,005.90          8                Texas
+      8340           $70,100.25          9                 Iowa
+      9101           $67,590.40          6                Texas
+      9400           $55,490.00          4         Pennsylvania
+
+
+Families below the poverty level:
+
+     Poverty Level      ID               Income         Members            State
+
+      $21,720.00       1042           $12,180.06          3                Texas
+      $17,240.00       1062           $13,240.45          2                Texas
+      $21,550.00       1327           $19,800.56          2               Alaska
+      $39,640.00       1483           $22,458.23          7                Texas
+      $21,720.00       1900           $17,000.09          3           Washington
+      $17,240.00       2000           $16,910.00          2              Vermont
+      $32,750.00       2112           $23,125.00          4               Alaska
+      $30,680.00       2500           $20,001.00          5               Hawaii
+      $21,720.00       3000           $21,330.00          3                Texas
+      $17,240.00       3601           $11,970.00          2             Illinois
+      $26,200.00       4000           $25,750.00          4              Florida
+      $21,720.00       4724            $8,900.00          3             Oklahoma
+      $12,760.00       9280            $6,200.00          1              Vermont
+      $30,680.00       5100           $30,170.05          5             Arkansas
+      $17,240.00       5217           $10,002.68          2                Texas
+      $44,120.00       9220           $35,000.58          8             Arkansas
+      $26,200.00       9300           $22,000.69          4                 Iowa
+
+
+The percentage of households below the poverty level: 44.74%
