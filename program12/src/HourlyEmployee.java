@@ -35,7 +35,7 @@ public class HourlyEmployee extends Employee {
 	   }
 	
 	public static void main(String[] args) {
-		HourlyEmployee myObj = new HourlyEmployee();
+		HourlyEmployee myObj = new HourlyEmployee("John", "Doe", 50.10);
 		Scanner input = new Scanner(System.in);
 		double ans = 0.0;
 		
@@ -45,6 +45,7 @@ public class HourlyEmployee extends Employee {
 			myObj.setHours(ans);
 			}
 		input.close();
+		myObj.displayOutput();
 	}
 	
 	public void setHours(double hours){
@@ -74,9 +75,28 @@ public class HourlyEmployee extends Employee {
 		return (super.getPayRate() + super.getPayRate() / 2) * totalOver;
 	}
 	
+	public double getTaxes(){
+		
+		double gross = getRegPay() + getOverPay(), tax;
+		
+		if(gross > 15000.00) {
+			tax = 36 / gross * 100 * gross;
+		} else if(gross > 10000.00) {
+			tax = 31 / gross * 100;
+		} else if (gross > 8000.00) {
+			tax = 28 / gross * 100;
+		} else if (gross > 4500.00) {
+			tax = 22 / gross * 100 * gross;
+		} else if ( gross > 2500.00) {
+			tax = 15 / gross * 100;
+		} else {
+			tax = 10 / gross * 100;
+		}
+		return tax;
+	}
 	public void displayOutput() {
 		super.toString();
-		System.out.printf("Regular Hours: %.2f%nOvertime Hours: %.2f%nTotal Hours: %.2f%n%nPay Rate: %.2f%n%nRegular Pay: %.2f%nOvertime Pay: %.2f%n", totalReg, totalOver, totalHours, super.getPayRate(), getRegPay(), getOverPay());
+		System.out.printf("Regular Hours: %.2f%nOvertime Hours: %.2f%nTotal Hours: %.2f%n%nPay Rate: %.2f%n%nRegular Pay: %.2f%nOvertime Pay: %.2f%nMonthly gross pay: %.2f%nTaxes: %.2f%nMonthly Net Pay: %.2f%n%n", totalReg, totalOver, totalHours, super.getPayRate(), getRegPay(), getOverPay(), (getRegPay() + getOverPay()), getTaxes(), (getRegPay() + getOverPay() + getTaxes()));
 	}
 	
 }
